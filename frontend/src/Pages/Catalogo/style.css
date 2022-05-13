@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.catalogo{
+    font-family: Roboto, sans-serif;
+    background: #D0C9C0;
+    height: 200vh;
+}
+
+.catalogo-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.catalogo-intro p {
+    width: 70%;
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.catalogo-produtos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    border-top: 2px solid white;
+    padding-top: 50px;
+    min-height: 50vh;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10px;
+    background: #EFEAD8;
+    width: 170px;
+    height: 280px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.produto:hover{
+    transform: translateY(-10px);
+    transition: 0.5s ease;
+}
+
+.produto p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #5F7161;
+    margin: 5px 0px;
+}
+
+.produto span {
+    font-size: 12px;
+    font-weight: 900;
+    color: black;
+}
